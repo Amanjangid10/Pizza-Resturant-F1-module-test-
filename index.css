@@ -1,0 +1,278 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: rgb(199, 197, 197);
+    font-family: 'Ruda';
+}
+
+nav {
+    border: 2px white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+    font-family: 'Ruda';
+}
+
+h2 {
+    letter-spacing: 0.06em;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgb(199, 197, 197);
+}
+
+.nav-center>a {
+    text-decoration: none;
+    color: rgb(199, 197, 197);
+}
+
+.nav-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navr {
+    width: 50px;
+    height: 50px !important;
+}
+
+.insta {
+    align-items: bottom;
+    width: 70px;
+    height: 70px;
+}
+
+.pizza>img {
+    position: relative;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.pizza-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-flow: column wrap;
+    gap: 15%;
+    top: 10%;
+    left: 10%;
+    width: 40%;
+}
+
+.craving {
+    font-size: 4.5vw;
+    word-spacing: .5cm;
+    letter-spacing: 0.1em;
+    font-family: 'Quattrocento';
+    color: white !important;
+}
+
+.rectangle-1 {
+    width: 35vw;
+    height: 10px;
+    background-color: #F24C4C;
+}
+
+.text-1 {
+    font-size: 25px;
+    word-spacing: .2cm;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 30px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0;
+    margin: 10px;
+    color: white;
+    font-family: 'Quattrocento';
+}
+
+.rectangle {
+    width: 20%;
+    height: 5px;
+    background-color: #B62828;
+}
+
+.dough {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 150px;
+}
+
+.rectangle-3 {
+    width: 70%;
+    height: 2px;
+    background-color: #B62828;
+}
+
+.dough-left {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: left;
+}
+
+.dough-left>p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+}
+
+.dough-right>img {
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 50px 150px;
+}
+
+.menu>div {
+    margin-bottom: 20px;
+}
+
+.menu>p {
+    font-size: 1.517em;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 50px 150px;
+    gap: 50px;
+}
+
+.menu-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu-left>img {
+    border-radius: 10px;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    gap: 3px;
+}
+
+.menu-right>h2 {
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-top: 3px;
+    color: #F2C94C;
+}
+
+.menu-right>p {
+    margin-left: 10px;
+    margin-top: -10px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.menu-left>p {
+    font-size: 1.5em;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 50px 150px;
+    gap: 80px;
+}
+
+.find-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-flow: column wrap;
+}
+
+.find-left>p {
+    margin-top: 2px;
+    font-size: 1.4em;
+}
+
+.location {
+    display: flex;
+    align-items: left;
+    flex-flow: row wrap;
+    gap: 45px;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+.contact-no {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 0;
+}
+
+.find-right>img {
+    border-radius: 10px;
+    width: 40vw;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: left;
+    margin: 200px 100px;
+    margin-bottom: 50px !important;
+}
+
+.footer-left>img {
+    display: flex;
+    align-items: left;
+    width: 35%;
+    align-items: left;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.mail {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
